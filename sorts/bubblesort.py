@@ -1,11 +1,5 @@
 import imgout
-import threading
 import random
-import time
-import concurrent.futures
-import multiprocessing
-from multiprocessing import Process
-from multiprocessing import Pool
 
 arrayLength = 256
 
@@ -53,5 +47,5 @@ if __name__ == '__main__':
         numSorted = numSorted + 1
 
     print("Done!")
-    while True:
+    while True: #comment this out to close the python window when done
         pass
