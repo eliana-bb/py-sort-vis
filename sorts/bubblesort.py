@@ -30,10 +30,7 @@ if __name__ == '__main__':
 
     numSorted = 0
     currentPos = 0
-    cycles = 0
-    multiprocessing.set_start_method('spawn')
-    
-
+    cycles = 0  
 
     while numSorted < arrayLength:
         while currentPos < (arrayLength - numSorted - 1):
